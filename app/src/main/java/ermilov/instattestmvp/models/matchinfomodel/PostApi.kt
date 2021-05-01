@@ -1,4 +1,4 @@
-package ermilov.instattestmvp.model
+package ermilov.instattestmvp.models.matchinfomodel
 
 data class PostApi(
     val proc: String,

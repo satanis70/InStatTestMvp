@@ -53,4 +53,6 @@ dependencies {
     kapt "com.github.moxy-community:moxy-compiler:2.2.1"
     implementation "com.github.moxy-community:moxy-app-compat:2.2.1"
     implementation "com.github.moxy-community:moxy-ktx:2.2.1"
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
 }

@@ -9,39 +9,50 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/team1"
+        android:id="@+id/tournament"
+        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:text="Турнир" />
+
+    <TextView
+        android:id="@+id/team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
         android:text="Команда 1" />
+
+    <TextView
+        android:id="@+id/score_team1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Счет: " />
 
     <TextView
         android:id="@+id/team2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="50dp"
         android:text="Команда 2" />
+
+    <TextView
+        android:id="@+id/score_team2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Счет: " />
 
     <TextView
         android:id="@+id/match_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
         android:text="Дата матча" />
-
-    <TextView
-        android:id="@+id/tournament"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Турир" />
-
-    <TextView
-        android:id="@+id/score"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Счет" />
 
     <Button
         android:id="@+id/button_translation"

@@ -1,6 +1,6 @@
-package ermilov.instattestmvp.model
+package ermilov.instattestmvp.models.matchinfomodel
 
-data class Team1(
+data class Team2(
     val id: Int,
     val name_eng: String,
     val name_rus: String,
